@@ -1,0 +1,5 @@
+Q1: b11f91d7
+Q2: 3
+Q3: Run git pull to fetch and merge the remote changes before pushing again.
+Q4: No. .gitignore does not remove secrets already committed to Git history. Rotate the exposed secret and remove it from history if necessary.
+Q5: git branch -d old-fix; git push origin --delete old-fix
